@@ -1,0 +1,154 @@
+.opalesate_message_line{
+	border-top: none;
+    color: #31708f;
+    background: #d9edf7;
+    padding: 10px 15px!important;
+    margin: 0 0 2em!important;
+    word-wrap: break-word;
+}
+.opalesate_message_line.danger{
+    color: #fff;
+    background: #ef114c;
+}
+
+#property-thumbs-container .gallery-thumbnail{
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#property-thumbs-container .icon-delete{
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	z-index: 99;
+	padding: 5px; 
+	background: #CCC;
+}
+
+#property-thumbs-container .icon-featured{
+	position: absolute;
+	bottom: 6px;
+	right: 0;
+	z-index: 99;
+	padding: 5px; 
+	background: #CCC;
+}
+#property-thumbs-container .icon-featured .fa-star{
+	color:#fc8826;
+}
+
+
+.media-drag-drop {
+  background-color: #efefef;
+  border: 2px dashed #dfdfdf;
+  text-align: center;
+  padding: 30px;
+}
+.media-drag-drop h4 {
+  color: #8b9293;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 0 20px;
+  font-weight: 400;
+  text-transform: inherit;
+  text-align: inherit;
+}
+.media-drag-drop .fa {
+  margin-right: 8px;
+}
+
+/****/
+.cmb-repeat-group-wrap {
+	width: 100%!important;
+}
+.cmb-repeat-group-wrap .inside {
+	overflow: hidden;
+}
+.cmb-repeat-group-wrap .inside .cmb-row {
+	width: 50%;
+	float: left;
+}
+.cmb-repeat-group-wrap .inside .cmb-remove-field-row{
+	width: 100%;
+	padding:0;
+	margin:0;
+}
+
+/**
+ * Properties information
+ */
+.row-group-features h3{
+ 	background: #f3f3f3;
+ 	padding: 10px 20px;
+ 	font-size: 15px;
+}
+
+.row-group-features .cmb-type-opal-upload label{
+	display: none;
+}
+.group-has-two,
+.group-has-three {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.group-has-two > h3,
+.group-has-three > h3 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.group-has-two .cmb-row{
+	width:50%;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.group-has-three .cmb-row{
+	width:33.333333%;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.group-has-three .cmb-row .regular-text {
+	width: 98%!important;
+}
+
+.cmb-row .cmb-th, 
+.cmb-row .cmb-td{
+	display: block;
+	float: none;
+	width: 100%!important;
+	padding: 0;
+	margin-bottom: 6px;
+}
+
+  .cmb-row textarea, .cmb-row select, .cmb-row input[type="text"]{
+	width: 100%!important;
+}
+
+.cmb-row .cmb-td p , .cmb-row .cmb-td span{
+	font-size: 11px;
+	padding:0;
+	margin:0;
+}
+.cmb-row .cmb-th  label{
+
+	font-weight: normal;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.property-submission-form .cmb2-metabox .cmb-repeat-group-wrap {
+	max-width:  1060px;
+}
+/**
+ * Animites
+ */
+ .group-amenities .cmb-th{
+ 	 display: none!important;
+ }
+.group-amenities .cmb2-list li{
+	display: block;
+	width: 30%;
+	float: left;
+}
